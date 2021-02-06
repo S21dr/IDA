@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 html {
@@ -32,16 +32,19 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-.blockScroll{
+
+.blockScroll {
   overflow: hidden;
 }
+
 .mainContainer {
   width: 100%;
   max-width: 1284px;
   padding: 0 10px;
   margin: 0 auto;
 }
-button{
+
+button {
   border: none;
   cursor: pointer;
   background: #1F1F1F;
@@ -57,16 +60,20 @@ button{
   transition: all 0.3s;
   box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
 }
-button:hover{
+
+button:hover {
   background: black;
   box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.9);
 }
+
 button:active, button:focus {
   outline: none;
 }
+
 button::-moz-focus-inner {
   border: 0;
 }
+
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -94,5 +101,26 @@ button::-moz-focus-inner {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.vs__dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.sortWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 34px ;
+
+  span {
+    margin-right: 4px;
+  }
+
+  .sort {
+    min-width: 160px;
+    max-width: 180px;
+  }
 }
 </style>

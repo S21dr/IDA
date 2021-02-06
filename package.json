@@ -14,7 +14,8 @@
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "v-click-outside": "^3.1.2",
-    "v-mask": "^2.2.4"
+    "v-mask": "^2.2.4",
+    "vue-select": "^3.11.2"
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.1.12",
